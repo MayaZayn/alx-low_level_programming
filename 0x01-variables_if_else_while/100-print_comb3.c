@@ -15,6 +15,8 @@ int main(void)
 
 		while (y <= 9)
 		{
+			if (y == 9 && x == 8)
+				break;
 			putchar(x + '0');
 			putchar(y + '0');
 			putchar(',');
