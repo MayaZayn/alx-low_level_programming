@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(x + '0');
 		x++;
-		if (x != 10) 
+		if (x != 10)
 		{
 			putchar(',');
 			putchar(' ');
